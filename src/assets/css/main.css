@@ -1,0 +1,13 @@
+#app {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}

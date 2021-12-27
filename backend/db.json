@@ -1,0 +1,182 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Baju Blouse",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "Baju Blouse.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Baju Nike",
+      "harga": 500000,
+      "is_ready": true,
+      "gambar": "Baju Nike.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Celana Jeans",
+      "harga": 100000,
+      "is_ready": true,
+      "gambar": "Celana Jeans.png"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Celana Pria",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "Celana Pria.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Baju Blouse",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "Baju Blouse.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Baju Nike",
+      "harga": 500000,
+      "is_ready": true,
+      "gambar": "Baju Nike.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Celana Jeans",
+      "harga": 100000,
+      "is_ready": true,
+      "gambar": "Celana Jeans.png"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Celana Pria",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "Celana Pria.png"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Celana Wanita",
+      "harga": 60000,
+      "is_ready": true,
+      "gambar": "Celana Wanita.png"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Dompet Lv",
+      "harga": 5000000,
+      "is_ready": true,
+      "gambar": "Dompet Lv.png"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Jaket Levis",
+      "harga": 150000,
+      "is_ready": true,
+      "gambar": "Jaket Levis.png"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kemeja Pria",
+      "harga": 70000,
+      "is_ready": true,
+      "gambar": "Kemeja Pria.png"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Kemeja Wanita",
+      "harga": 80000,
+      "is_ready": true,
+      "gambar": "Kemeja Wanita.png"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Sandal Fipper",
+      "harga": 100000,
+      "is_ready": true,
+      "gambar": "Sandal Fipper.png"
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Sepatu Converse",
+      "harga": 200000,
+      "is_ready": true,
+      "gambar": "Sepatu Converse.png"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Sepatu Jordan",
+      "harga": 5000000,
+      "is_ready": true,
+      "gambar": "Sepatu Jordan.png"
+    },
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "Sepatu Sneakers",
+      "harga": 500000,
+      "is_ready": true,
+      "gambar": "Sepatu Sneakers.png"
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Sepatu Vans",
+      "harga": 350000,
+      "is_ready": true,
+      "gambar": "Sepatu Vans.png"
+    },
+    {
+      "id": 15,
+      "kode": "K-15",
+      "nama": "Sweater Pria",
+      "harga": 150000,
+      "is_ready": true,
+      "gambar": "Sweater Pria.png"
+    },
+    {
+      "id": 16,
+      "kode": "K-16",
+      "nama": "Topi Burberry",
+      "harga": 3000000,
+      "is_ready": true,
+      "gambar": "Topi Burberry.png"
+    }
+  ],
+  "keranjang": [
+    {
+      "jumlah_pemesanan": "1",
+      "keterangan": "double bubble wrap",
+      "product": {
+        "id": 1,
+        "kode": "K-01",
+        "nama": "Baju Blouse",
+        "harga": 50000,
+        "is_ready": true,
+        "gambar": "Baju Blouse.png"
+      },
+      "id": 1
+    }
+  ],
+  "pesanans": []
+}
