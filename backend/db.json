@@ -163,20 +163,75 @@
       "gambar": "Topi Burberry.png"
     }
   ],
-  "keranjang": [
+  "keranjang": [],
+  "pesanans": [
     {
-      "jumlah_pemesanan": "1",
-      "keterangan": "double bubble wrap",
-      "product": {
-        "id": 1,
-        "kode": "K-01",
-        "nama": "Baju Blouse",
-        "harga": 50000,
-        "is_ready": true,
-        "gambar": "Baju Blouse.png"
-      },
+      "nama": "Putri",
+      "alamat": "Bali",
+      "noTelpon": "087762672333",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "ukuran L",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Baju Blouse",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "Baju Blouse.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "Ukuran 35",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Celana Pria",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "Celana Pria.png"
+          },
+          "id": 4
+        }
+      ],
       "id": 1
+    },
+    {
+      "nama": "Ardivan",
+      "alamat": "Denpasar",
+      "noTelpon": "087762672333",
+      "keranjang": [
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "Ukuran L",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Baju Blouse",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "Baju Blouse.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "Warna Hitam",
+          "products": {
+            "id": 10,
+            "kode": "K-10",
+            "nama": "Sandal Fipper",
+            "harga": 100000,
+            "is_ready": true,
+            "gambar": "Sandal Fipper.png"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
     }
-  ],
-  "pesanans": []
+  ]
 }

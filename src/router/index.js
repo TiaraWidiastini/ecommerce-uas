@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Barang from '../views/Barang.vue'
 import DetailBarang from '../views/DetailBarang'
+import Keranjang from '../views/Keranjang.vue'
+import PesananSukses from '../views/PesananSukses.vue'
+
 
 Vue.use(VueRouter)
 
@@ -21,6 +24,16 @@ const routes = [
     path: '/barang/:id',
     name: 'DetailBarang',
     component: DetailBarang
+  },
+  {
+    path: '/keranjang',
+    name: 'Keranjang',
+    component: Keranjang
+  },
+  {
+    path: '/pesanan-sukses',
+    name: 'PesananSukses',
+    component: PesananSukses
   },
   {
     path: '/about',

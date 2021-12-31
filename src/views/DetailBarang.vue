@@ -23,10 +23,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <img
-            :src="'../assets/images/' + product.gambar"
-            class="img-fluid shadow"
-          />
+          <img :src="'../assets/images/' + product.gambar" class="img-fluid shadow"/>
         </div>
         <div class="col-md-6">
           <h2>
@@ -86,18 +83,28 @@ export default {
       this.product = data;
     },
     pemesanan() {
-      this.pesan.products = this.product;
-      axios
-        .post("http://localhost:3000/keranjang", this.pesan)
-        .then(() => {
-         /* this.$toast.success("Ditambahkan ke Keranjang.", {
-           type: 'success',
-           position: 'top-right',
-           duration: 3000,
-           dismissible: true
-          });*/
-        })
-        .catch((err) => console.log(err));
+      if (this.pesan.jumlah_pemesanan) {
+        this.pesan.products = this.product;
+        axios
+          .post("http://localhost:3000/keranjang", this.pesan)
+          .then(() => {
+              this.$router.push({ path:"/keranjang"})
+            this.$toast.success("Sukses Masuk Keranjang", {
+              type: "success",
+              position: "top-right",
+              duration: "3000",
+              dismissible: true,
+            });
+          })
+          .catch((err) => console.log(err));
+      } else {
+        this.$toast.error("jumlah pesanan", {
+          type: "error",
+          position: "top-right",
+          duration: "3000",
+          dismissible: true,
+        });
+      }
     },
   },
   mounted() {
